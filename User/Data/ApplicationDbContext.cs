@@ -11,6 +11,8 @@ namespace User.Data
         }
 
         public DbSet<Users> Users { get; set; }
+        public DbSet<Department> Department { get; set; }
+        public DbSet<Address> Address { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

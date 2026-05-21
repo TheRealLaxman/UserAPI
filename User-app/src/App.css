@@ -1,0 +1,20 @@
+.form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+.form-container input {
+  padding: 10px;
+  font-size: 16px;
+}
+
+.form-container button {
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
